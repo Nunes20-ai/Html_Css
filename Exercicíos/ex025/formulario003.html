@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Nome" minlength="5" maxlength="15" size="15">
+        </p>
+        <p>
+            <label for="inota">Nota</label>
+            <input type="number" name="nota" id="inota" min="0" max="10" required step="0.5" autocomplete="cc-number">
+        </p>
+        <p>
+            <label for="imes">Mês</label>
+            <input type="month" name="mes" id="imes" required autocomplete="cc-exp-month">
+        </p>
+        <P>
+            <label for="idata">Data</label>
+            <input type="date" name="data" id="idata" required>
+        </P>
+        <p>
+            <label for="ihora">Hora</label>
+            <input type="time" name="hora" id="ihora" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
