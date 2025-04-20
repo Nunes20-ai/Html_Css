@@ -6,6 +6,25 @@
     <title>Formulário 8</title>
 </head>
 <body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="in1">Nota1</label>
+            <input type="number" name="n1" id="in1" required placeholder="1º Nota" min="0" max="20" oninput="isoma.innerHTML=Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Nota1</label>
+            <input type="number" name="n2" id="in2" required placeholder="2º Nota" min="0" max="20" oninput="isoma.innerHTML=Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">Resultado da soma:</label>
+            <output name="soma" id="isoma"></output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
     
 </body>
 </html>
