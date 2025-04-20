@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+menu{
+    display: none;
+}
+main::after{
+    content: "Esse conteudo foi criado pelo Nunes";
+}
