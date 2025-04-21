@@ -1,4 +1,5 @@
 @charset "UTF-8";
 body{
-    background-image: url(../imagens/Nunes1.jpg);
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
 }
