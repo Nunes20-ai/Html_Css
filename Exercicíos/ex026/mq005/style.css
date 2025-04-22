@@ -17,8 +17,13 @@ header h1{
 }
 #menu{
     background-color: rgb(27, 26, 26);
+    color: white;
     display: block;
     text-align: center;
+}
+#menu:hover{
+    background-color: white;
+    color: rgb(27, 26, 26);;
 }
 nav{
     display: none;
