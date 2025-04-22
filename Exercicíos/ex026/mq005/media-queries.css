@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px){
+    i#menu{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    nav p{
+        display: inline-block;
+        border: 2px solid gray;
+        margin-right: -10px;
+    }
+    main{
+        width: 768px;
+    }
+}
